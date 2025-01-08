@@ -27,6 +27,8 @@ function genId() {
   return count.toString()
 }
 
+console.log(actionTypes.ADD_TOAST)
+
 type ActionType = typeof actionTypes
 
 type Action =
