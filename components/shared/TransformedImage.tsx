@@ -20,9 +20,11 @@ const TransformedImage = ({
     const timeout = setTimeout(() => {
       if (isTransforming) {
         console.warn('Resetting isTransforming due to timeout')
-        setIsTransforming && setIsTransforming(false)
+        if (setIsTransforming) {
+          setIsTransforming(false)
+        }
       }
-    }, 10000) // Fallback after 10 seconds
+    }, 10000)
 
     return () => clearTimeout(timeout)
   }, [isTransforming, setIsTransforming])
@@ -45,12 +47,16 @@ const TransformedImage = ({
 
   const handleImageLoad = () => {
     console.log('Image loaded successfully')
-    setIsTransforming && setIsTransforming(false) // Reset spinner
+    if (setIsTransforming) {
+      setIsTransforming(false) // Reset spinner
+    }
   }
 
   const handleImageError = () => {
     console.error('Failed to load the image')
-    setIsTransforming && setIsTransforming(false) // Reset spinner on error
+    if (setIsTransforming) {
+      setIsTransforming(false) // Reset spinner on error
+    }
   }
 
   return (
