@@ -113,7 +113,7 @@ export async function getAllImages({
       secure: true,
     })
 
-    let query: any = {}
+    const query: any = {}
 
     // Query Cloudinary for AI-based content matching
     const expression = `folder=imaginify ${
