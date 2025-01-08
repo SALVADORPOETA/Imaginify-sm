@@ -12,8 +12,8 @@ interface PageProps {
 }
 
 const Home = async ({ searchParams }: PageProps) => {
-  const params = await Promise.resolve(searchParams)
-  // const params = searchParams
+  // const params = await Promise.resolve(searchParams)
+  const params = searchParams
   const page = Number(params?.page || 1)
   const searchQuery = (params?.query as string) || ''
 
