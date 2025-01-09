@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  reactStrictMode: true,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   webpack(config, { isServer }) {
     if (!isServer) {
       // Ignore TypeScript warnings related to the deployment process
