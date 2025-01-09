@@ -15,6 +15,18 @@ const Profile = async ({ searchParams }: SearchParamProps) => {
   const user = await getUserById(userId)
   const images = await getUserImages({ page, userId: user._id })
 
+  // Fetch the images for all pages
+  let totalImages = 0
+  let currentPage = 1
+  let totalPages = 1
+
+  while (currentPage <= totalPages) {
+    const images = await getUserImages({ page: currentPage, userId: user._id })
+    totalImages += images?.data.length || 0
+    totalPages = images?.totalPages || 1
+    currentPage += 1
+  }
+
   return (
     <>
       <Header title="Profile" />
@@ -44,7 +56,7 @@ const Profile = async ({ searchParams }: SearchParamProps) => {
               height={50}
               className="size-9 md:size-12"
             />
-            <h2 className="h2-bold text-dark-600">{images?.data.length}</h2>
+            <h2 className="h2-bold text-dark-600">{totalImages}</h2>
           </div>
         </div>
       </section>
