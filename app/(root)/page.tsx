@@ -4,13 +4,10 @@ import { getAllImages } from '@/lib/actions/image.actions'
 import Image from 'next/image'
 import Link from 'next/link'
 
-interface SearchParamProps {
-  searchParams: { [key: string]: string | string[] | undefined }
-}
-
 const Home = async ({ searchParams }: SearchParamProps) => {
-  const page = Number(searchParams?.page || 1)
-  const searchQuery = (searchParams?.query as string) || ''
+  const params = await Promise.resolve(searchParams)
+  const page = Number(params?.page || 1)
+  const searchQuery = (params?.query as string) || ''
 
   const images = await getAllImages({ page, searchQuery })
 
