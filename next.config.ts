@@ -10,6 +10,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  webpack(config, { isServer }) {
+    if (!isServer) {
+      // Ignore TypeScript warnings related to the deployment process
+      config.ignoreWarnings = [
+        (warning: any) => warning.message.includes('TypeScript error'),
+      ]
+    }
+    return config
+  },
 }
 
 export default nextConfig
