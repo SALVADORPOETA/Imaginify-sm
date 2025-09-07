@@ -10,7 +10,7 @@ import { Button } from '../ui/button'
 const Sidebar = () => {
   const pathname = usePathname()
   return (
-    <aside className="sidebar">
+    <aside className="sidebar overflow-y-auto scrollbar-custom">
       <div className="flex size-full flex-col gap-4">
         <Link href="/" className="sidebar-logo">
           <Image

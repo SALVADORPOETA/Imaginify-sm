@@ -71,7 +71,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground overflow-y-hidden;
   }
 }
 
@@ -333,6 +333,26 @@
 
   .sidebar-link {
     @apply p-16-semibold flex size-full gap-4 p-4;
+  }
+
+  /* Scrollbar claro y redondeado para sidebars y paneles */
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 10px; /* ancho del scroll */
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: transparent; /* fondo del track */
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #e5e5e5; /* gris claro casi blanco */
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background-color: #d4d4d4; /* más oscuro al pasar el mouse */
   }
 
   /* TransformationForm Component */

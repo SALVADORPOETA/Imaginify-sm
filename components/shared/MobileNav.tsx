@@ -35,7 +35,7 @@ const MobileNav = () => {
                 className="cursor-pointer"
               />
             </SheetTrigger>
-            <SheetContent className="sheet-content sm:w-64">
+            <SheetContent className="sheet-content sm:w-64 overflow-y-auto scrollbar-custom">
               <VisuallyHidden>
                 <DialogTitle>Menu</DialogTitle>
               </VisuallyHidden>
