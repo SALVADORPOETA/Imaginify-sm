@@ -138,7 +138,6 @@ imaginify/
 │  │  ├─ sign-in/page.tsx
 │  │  └─ sign-up/page.tsx
 │  ├─ (root)/layout.tsx
-│  ├─ admin/page.tsx
 │  ├─ profile/page.tsx
 │  ├─ credits/page.tsx
 │  └─ transformations/
@@ -159,14 +158,12 @@ imaginify/
 │     └─ toaster.tsx
 ├─ lib/
 │  ├─ actions/
-│  │  ├─ file.actions.ts
 │  │  ├─ user.actions.ts
 │  │  ├─ image.actions.ts
 │  │  └─ transaction.action.ts
 │  ├─ appwrite/config.ts
 │  └─ utils.ts
 ├─ types/
-│  └─ appwrite.types.ts
 ├─ public/
 │  └─ assets/
 │     ├─ icons/
