@@ -82,8 +82,8 @@ Key highlights:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/SALVADORPOETA/imaginify.git
-cd imaginify
+git clone https://github.com/SALVADORPOETA/Imaginify-sm.git
+cd Imaginify-sm
 ```
 
 2. Install dependencies:
