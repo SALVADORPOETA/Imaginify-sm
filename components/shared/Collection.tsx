@@ -13,7 +13,7 @@ import {
 } from '@/components/ui/pagination'
 import { transformationTypes } from '@/constants'
 import { IImage } from '@/lib/database/models/image.model'
-import { formUrlQuery } from '@/lib/utils'
+import { formUrlQuery, removeKeysFromQuery } from '@/lib/utils'
 
 import { Button } from '../ui/button'
 
@@ -34,16 +34,17 @@ export const Collection = ({
   const searchParams = useSearchParams()
 
   // PAGINATION HANDLER
-  const onPageChange = (action: string) => {
+  const onPageChange = (action: 'next' | 'prev') => {
     const pageValue = action === 'next' ? Number(page) + 1 : Number(page) - 1
 
-    const newUrl = formUrlQuery({
-      searchParams: searchParams.toString(),
-      key: 'page',
-      value: pageValue,
-    })
+    const params = new URLSearchParams(searchParams.toString())
 
-    router.push(newUrl, { scroll: false })
+    // 🔑 Resetear búsqueda al paginar
+    params.delete('query')
+
+    params.set('page', String(pageValue))
+
+    router.push(`/?${params.toString()}`, { scroll: false })
   }
 
   return (
@@ -56,7 +57,7 @@ export const Collection = ({
       {images.length > 0 ? (
         <ul className="collection-list">
           {images.map((image) => (
-            <Card image={image} key={image._id as string} />
+            <Card image={image} key={image._id.toString()} />
           ))}
         </ul>
       ) : (
@@ -97,7 +98,10 @@ export const Collection = ({
 const Card = ({ image }: { image: IImage }) => {
   return (
     <li>
-      <Link href={`/transformations/${image._id}`} className="collection-card">
+      <Link
+        href={`/transformations/${image._id.toString()}`}
+        className="collection-card"
+      >
         <CldImage
           src={image?.publicId}
           alt={image?.title || 'Collection Image'}
