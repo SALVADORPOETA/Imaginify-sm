@@ -1,6 +1,6 @@
 # Imaginify
 
-## 🚀 Introduction
+🚀 Introduction
 
 **Imaginify** is an AI-powered image generator that allows users to create, transform, and manage images using various AI-based transformation types. This project is based on a YouTube tutorial from **JavaScript Mastery**. 
 
