@@ -9,9 +9,11 @@ import { usePathname } from 'next/navigation'
 import { Button } from '../ui/button'
 import { DialogTitle } from '@radix-ui/react-dialog'
 import { VisuallyHidden } from '@radix-ui/react-visually-hidden'
+import { useState } from 'react'
 
 const MobileNav = () => {
   const pathname = usePathname()
+  const [open, setOpen] = useState(false)
   return (
     <header className="header">
       <Link href="/" className="flex items-center gap-2 md:py-2">
@@ -25,15 +27,17 @@ const MobileNav = () => {
       <nav className="flex gap-2">
         <SignedIn>
           <UserButton />
-          <Sheet>
-            <SheetTrigger>
-              <Image
-                src="/assets/icons/menu.svg"
-                alt="menu"
-                width={32}
-                height={32}
-                className="cursor-pointer"
-              />
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger asChild>
+              <button type="button" aria-label="Open menu">
+                <Image
+                  src="/assets/icons/menu.svg"
+                  alt="menu"
+                  width={32}
+                  height={32}
+                  className="cursor-pointer"
+                />
+              </button>
             </SheetTrigger>
             <SheetContent className="sheet-content sm:w-64 overflow-y-auto scrollbar-custom">
               <VisuallyHidden>
@@ -51,14 +55,15 @@ const MobileNav = () => {
                     const isActive = link.route === pathname
                     return (
                       <li
+                        key={link.route}
                         className={`${
                           isActive && 'gradient-text'
                         } p-18 flex whitespace-nowrap text-dark-700`}
-                        key={link.route}
                       >
                         <Link
-                          className="sidebar-link cursor-pointer"
                           href={link.route}
+                          className="sidebar-link cursor-pointer"
+                          onClick={() => setOpen(false)}
                         >
                           <Image
                             src={link.icon}
