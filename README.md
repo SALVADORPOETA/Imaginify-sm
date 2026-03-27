@@ -1,7 +1,5 @@
 # Imaginify
 
-## 🚀 Introduction
-
 **Imaginify** is an AI-powered image generator that allows users to create, transform, and manage images using various AI-based transformation types. This project is based on a YouTube tutorial from **JavaScript Mastery**. 
 
 It demonstrates a Software as a Service (SaaS) platform with AI-powered features, payment integration, and a credit system. The application includes functionalities such as AI generative fill, image restoration, object recoloring, object removal, and background removal. Users can create, edit, save, delete, and download images. It also features a login system, a home page, a profile page, a details page, and an update page.
