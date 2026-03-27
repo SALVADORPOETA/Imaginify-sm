@@ -1,6 +1,6 @@
 # Imaginify
 
-🚀 Introduction
+🚀 ## Introduction
 
 **Imaginify** is an AI-powered image generator that allows users to create, transform, and manage images using various AI-based transformation types. This project is based on a YouTube tutorial from **JavaScript Mastery**. 
 
@@ -16,10 +16,15 @@ Key highlights:
 * **Complete CRUD operations** for image management
 * Fully **responsive UI** built with Next.js, TailwindCSS, and React
 
+---
+
+## 📖 Pages
+
+### Home Page
+
 ![imaginify](https://github.com/user-attachments/assets/5841d98b-ab8a-44d3-b3e8-f5c074f0d848)
 
 ---
-
 ## 🧩 Features
 
 ### 🤖 AI Image Transformations
