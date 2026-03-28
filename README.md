@@ -73,6 +73,8 @@ Key highlights:
 
 <img width="775" height="629" alt="imaginify12" src="https://github.com/user-attachments/assets/f1adc245-80f5-477e-8865-3928cc1c1903" />
 
+### Account Management
+
 <img width="775" height="627" alt="imaginify11" src="https://github.com/user-attachments/assets/cded7ecf-79d8-4514-9a4a-60f637965c9e" />
 
 ### 💳 Credit System & Payments
