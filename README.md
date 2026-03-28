@@ -38,6 +38,10 @@ Key highlights:
 
 <img width="777" height="629" alt="imaginify6" src="https://github.com/user-attachments/assets/6f80aa06-e077-4f4e-8a31-d70c5bf46730" />
 
+### Delete
+
+<img width="777" height="625" alt="imaginify3" src="https://github.com/user-attachments/assets/efcea14f-5dcc-435d-9611-2f87f330259b" />
+
 ### Profile
 
 <img width="759" height="629" alt="imaginify8" src="https://github.com/user-attachments/assets/8346e54b-0692-4e81-a68a-6277816f6dc8" />
