@@ -16,11 +16,17 @@ Key highlights:
 
 ---
 
-## 📖 Pages
+## 🧩 Features
 
 ### Home Page
 
 ![imaginify](https://github.com/user-attachments/assets/5841d98b-ab8a-44d3-b3e8-f5c074f0d848)
+
+### 🤖 AI Image Transformations
+
+* Generate and transform images using AI-powered tools
+* Multiple transformation types available
+* Real-time preview of transformations
 
 ### Image Restore
 
@@ -42,6 +48,12 @@ Key highlights:
 
 <img width="777" height="625" alt="imaginify3" src="https://github.com/user-attachments/assets/efcea14f-5dcc-435d-9611-2f87f330259b" />
 
+### 👤 User Management
+
+* **Clerk authentication** for secure sign-up and sign-in
+* User profile with credit balance tracking
+* Personal image gallery for each user
+
 ### Profile
 
 <img width="759" height="629" alt="imaginify8" src="https://github.com/user-attachments/assets/8346e54b-0692-4e81-a68a-6277816f6dc8" />
@@ -50,34 +62,24 @@ Key highlights:
 
 <img width="775" height="627" alt="imaginify9" src="https://github.com/user-attachments/assets/d2f6216b-f51e-4ff1-acc9-d5444a20a2a8" />
 
-### Stripe Payments
-
-<img width="773" height="629" alt="imaginify10" src="https://github.com/user-attachments/assets/a28ec29b-38a0-4523-bfad-6719fab8bf27" />
-
 ### Clerk Integration
 
+<img width="775" height="629" alt="imaginify12" src="https://github.com/user-attachments/assets/f1adc245-80f5-477e-8865-3928cc1c1903" />
+
 <img width="775" height="627" alt="imaginify11" src="https://github.com/user-attachments/assets/cded7ecf-79d8-4514-9a4a-60f637965c9e" />
-
----
-## 🧩 Features
-
-### 🤖 AI Image Transformations
-
-* Generate and transform images using AI-powered tools
-* Multiple transformation types available
-* Real-time preview of transformations
-
-### 👤 User Management
-
-* **Clerk authentication** for secure sign-up and sign-in
-* User profile with credit balance tracking
-* Personal image gallery for each user
 
 ### 💳 Credit System & Payments
 
 * Credit-based system for image transformations
 * **Stripe integration** for purchasing credits
 * Transaction history and management
+
+### Stripe Payments
+
+<img width="773" height="629" alt="imaginify10" src="https://github.com/user-attachments/assets/a28ec29b-38a0-4523-bfad-6719fab8bf27" />
+
+
+---
 
 ### 🖼️ Image Management
 
