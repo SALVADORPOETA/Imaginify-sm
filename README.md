@@ -69,7 +69,7 @@ Key highlights:
 
 <img width="759" height="629" alt="imaginify8" src="https://github.com/user-attachments/assets/8346e54b-0692-4e81-a68a-6277816f6dc8" />
 
-### *Clerk Integration*
+### *Clerk Authentication*
 
 <img width="775" height="629" alt="imaginify12" src="https://github.com/user-attachments/assets/f1adc245-80f5-477e-8865-3928cc1c1903" />
 
