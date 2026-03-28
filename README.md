@@ -18,7 +18,11 @@ Key highlights:
 
 ## 🧩 Features
 
-### Home Page
+### 🎨 Modern UI/UX
+
+* Responsive design built with **TailwindCSS**
+* Clean and intuitive user interface
+* Mobile-friendly navigation with sidebar and mobile menu
 
 ![imaginify](https://github.com/user-attachments/assets/5841d98b-ab8a-44d3-b3e8-f5c074f0d848)
 
@@ -44,6 +48,13 @@ Key highlights:
 
 <img width="777" height="629" alt="imaginify6" src="https://github.com/user-attachments/assets/6f80aa06-e077-4f4e-8a31-d70c5bf46730" />
 
+### 🖼️ Image Management
+
+* Upload and store images via **Cloudinary**
+* **CRUD operations**: create, read, update, and delete images
+* Search and pagination support for image gallery
+* Download transformed images
+
 ### Delete Image
 
 <img width="777" height="625" alt="imaginify3" src="https://github.com/user-attachments/assets/efcea14f-5dcc-435d-9611-2f87f330259b" />
@@ -58,10 +69,6 @@ Key highlights:
 
 <img width="759" height="629" alt="imaginify8" src="https://github.com/user-attachments/assets/8346e54b-0692-4e81-a68a-6277816f6dc8" />
 
-### Buy Credits
-
-<img width="775" height="627" alt="imaginify9" src="https://github.com/user-attachments/assets/d2f6216b-f51e-4ff1-acc9-d5444a20a2a8" />
-
 ### Clerk Integration
 
 <img width="775" height="629" alt="imaginify12" src="https://github.com/user-attachments/assets/f1adc245-80f5-477e-8865-3928cc1c1903" />
@@ -74,25 +81,13 @@ Key highlights:
 * **Stripe integration** for purchasing credits
 * Transaction history and management
 
+### Buy Credits
+
+<img width="775" height="627" alt="imaginify9" src="https://github.com/user-attachments/assets/d2f6216b-f51e-4ff1-acc9-d5444a20a2a8" />
+
 ### Stripe Payments
 
 <img width="773" height="629" alt="imaginify10" src="https://github.com/user-attachments/assets/a28ec29b-38a0-4523-bfad-6719fab8bf27" />
-
-
----
-
-### 🖼️ Image Management
-
-* Upload and store images via **Cloudinary**
-* **CRUD operations**: create, read, update, and delete images
-* Search and pagination support for image gallery
-* Download transformed images
-
-### 🎨 Modern UI/UX
-
-* Responsive design built with **TailwindCSS**
-* Clean and intuitive user interface
-* Mobile-friendly navigation with sidebar and mobile menu
 
 ---
 
