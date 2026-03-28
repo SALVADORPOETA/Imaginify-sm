@@ -32,19 +32,19 @@ Key highlights:
 * Multiple transformation types available
 * Real-time preview of transformations
 
-### Image Restore
+### *Image Restore*
 
 <img width="777" height="629" alt="imaginify4" src="https://github.com/user-attachments/assets/7340cf72-112a-4853-a15e-7c3c9cfa9f5d" />
 
-### Generative Fill
+### *Generative Fill*
 
 <img width="761" height="631" alt="imaginify1" src="https://github.com/user-attachments/assets/cf7953b7-64d8-4a04-9835-dfd8c47e2439" />
 
-### Object Remove
+### *Object Remove*
 
 <img width="777" height="629" alt="imaginify5" src="https://github.com/user-attachments/assets/399a7340-12ca-4d20-a2fd-10b309f7e401" />
 
-### Object Recolor
+### *Object Recolor*
 
 <img width="777" height="629" alt="imaginify6" src="https://github.com/user-attachments/assets/6f80aa06-e077-4f4e-8a31-d70c5bf46730" />
 
@@ -55,7 +55,7 @@ Key highlights:
 * Search and pagination support for image gallery
 * Download transformed images
 
-### Delete Image
+### *Delete Image*
 
 <img width="777" height="625" alt="imaginify3" src="https://github.com/user-attachments/assets/efcea14f-5dcc-435d-9611-2f87f330259b" />
 
@@ -65,15 +65,15 @@ Key highlights:
 * User profile with credit balance tracking
 * Personal image gallery for each user
 
-### Profile
+### *Profile*
 
 <img width="759" height="629" alt="imaginify8" src="https://github.com/user-attachments/assets/8346e54b-0692-4e81-a68a-6277816f6dc8" />
 
-### Clerk Integration
+### *Clerk Integration*
 
 <img width="775" height="629" alt="imaginify12" src="https://github.com/user-attachments/assets/f1adc245-80f5-477e-8865-3928cc1c1903" />
 
-### Account Management
+### *Account Management*
 
 <img width="775" height="627" alt="imaginify11" src="https://github.com/user-attachments/assets/cded7ecf-79d8-4514-9a4a-60f637965c9e" />
 
@@ -83,11 +83,11 @@ Key highlights:
 * **Stripe integration** for purchasing credits
 * Transaction history and management
 
-### Buy Credits
+### *Buy Credits*
 
 <img width="775" height="627" alt="imaginify9" src="https://github.com/user-attachments/assets/d2f6216b-f51e-4ff1-acc9-d5444a20a2a8" />
 
-### Stripe Payments
+### *Stripe Payments*
 
 <img width="773" height="629" alt="imaginify10" src="https://github.com/user-attachments/assets/a28ec29b-38a0-4523-bfad-6719fab8bf27" />
 
